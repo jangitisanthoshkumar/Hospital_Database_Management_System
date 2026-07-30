@@ -24,7 +24,7 @@ hospital-database-management-system/
 **15 tables** covering people (`physician`, `nurse`, `patient`), organization (`department`, `affiliated_with`), facilities (`block`, `room`, `stay`), care events (`appointment`, `undergoes`, `prescribes`, `on_call`), and reference data (`procedures`, `medication`, `trained_in`). Every table has a primary key, and every relationship is enforced with a foreign key. Dates use native `DATE` columns.
 
 ## ER Diagram
-![Hospital Database ER Diagram](docs/ERD.png)
+![Hospital Database ER Diagram](ERD.png)
 
 ## Example queries
 - **Compliance:** physicians who performed a procedure outside their certification, or after it expired
